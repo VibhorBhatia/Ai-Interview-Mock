@@ -35,7 +35,7 @@ export default function HomePage() {
         transition={{ duration: 1.2 }}
       >
         {/* Fixed onClick event */}
-        <Button onClick={() => router.replace("/sign-in")} className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 flex items-center gap-2 rounded-lg shadow-lg">
+        <Button onClick={() => router.replace("/dashboard")} className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-3 flex items-center gap-2 rounded-lg shadow-lg">
           <Mic size={20} /> Start Interview
         </Button>
         <Button className="bg-gray-800 hover:bg-gray-600 text-white px-6 py-3 flex items-center gap-2 rounded-lg shadow-lg">
